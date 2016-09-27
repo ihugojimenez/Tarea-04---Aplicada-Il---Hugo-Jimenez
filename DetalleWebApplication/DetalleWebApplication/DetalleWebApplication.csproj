@@ -124,7 +124,11 @@
     <Content Include="Content\bootstrap-aux.css" />
     <Content Include="Content\bootstrapLoL.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\grayscale.css" />
+    <Content Include="Content\grayscale.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="scripts\grayscale.js" />
+    <Content Include="scripts\grayscale.min.js" />
     <Content Include="Registro\RegistroWebForm.aspx" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
@@ -136,12 +140,13 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="WebForm1.aspx" />
-    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <None Include="scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="scripts\jquery-3.1.0.js" />
+    <Content Include="scripts\jquery-3.1.0.min.js" />
+    <Content Include="scripts\jquery-3.1.0.slim.js" />
+    <Content Include="scripts\jquery-3.1.0.slim.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="scripts\jquery-1.9.1.js" />
-    <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -158,13 +163,6 @@
     <Compile Include="Registro\RegistroWebForm.aspx.designer.cs">
       <DependentUpon>RegistroWebForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -175,7 +173,8 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="scripts\jquery-1.9.1.min.map" />
+    <Content Include="scripts\jquery-3.1.0.slim.min.map" />
+    <Content Include="scripts\jquery-3.1.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
