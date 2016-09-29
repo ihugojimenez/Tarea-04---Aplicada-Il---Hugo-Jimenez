@@ -6,6 +6,14 @@
 <head runat="server">
     <title></title>
     <link href="Content/bootstrapLoL.css" rel="stylesheet" type="text/css"/>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style type="text/css">
         .auto-style1 {
             margin-left: 80px;
@@ -43,7 +51,7 @@
             </div>
             <div class="auto-style1">
                 <br />
-                &nbsp;<asp:Button ID="AddButton" runat="server" OnClick="AddButton_Click" style="height: 29px" Text="Agregar" />
+                &nbsp;<asp:Button ID="AddButton" CssClass ="btn btn-primary" runat="server" OnClick="AddButton_Click" style="height: 29px" Text="Agregar" />
                 &nbsp;
                 <br />
                 <asp:GridView ID="TelefonosGridView" runat="server" Width="309px">
